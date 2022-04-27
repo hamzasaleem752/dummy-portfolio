@@ -21,13 +21,13 @@
     list-style-type: none;
     display: flex;
     color: white;
-    font-size: 1em;
+    font-size: 1.2vw;
 }
 .menu-item{
     margin-right: 30px;
 }
 .details{
-    background-image: url(./images/photo-1518655048521-f130df041f66.jpg);
+    /* background-image: url(./images/photo-1518655048521-f130df041f66.jpg); */
     background-repeat: no-repeat;
     background-size: 100vw;
     display: flex;
@@ -114,4 +114,63 @@
 
 }
 
-    
+@media only screen and (max-width: 1250px) {
+  .menu{
+    font-size: 2vw;
+  }
+}    
+@media only screen and (max-width: 1050px) {
+    .details-image{
+      display: none;
+    }
+.button{
+    display: flex;
+    justify-content: center;
+}
+.details-text{
+        font-size: 3vw;
+        text-align: center;
+    }
+.uni-title{
+        font-size: 1.5rem;
+    }
+.uni-desc{
+        font-size: 1.3rem;}
+        
+@media only screen and (max-width: 850px) {
+    .menu{
+      font-size: 1.5vw;
+    }
+ .single-proj img{
+        width: 15vw; height: 15vw;
+        }
+.single-proj{
+            height: 300px;
+        }
+/* .button button{
+    font-size: 0.6rem; */
+
+}
+     
+@media only screen and (max-width: 600px) {
+        .menu{
+          font-size: 1.5vw;}
+.uni-title{
+            font-size: 1.3rem;
+        }
+.uni-desc{
+            font-size: 1rem;}
+.edu-heading{
+    text-align: center;
+}
+.university img{
+    width: 20%;
+}
+.button button{
+    font-size: 0.6rem;}
+ .single-proj img{
+    width: 15vw; height: 15vw;
+    }
+.single-proj{
+    height: 250px;
+}
